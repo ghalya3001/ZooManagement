@@ -8,7 +8,7 @@ public class ZooManagement {
 //        System.out.println(zooName+" comporte "+nbCages+ "cages");
         Animal lion = new Animal();
         lion.isMammal=true;
-        lion.nom="simba";
+        lion.nom="syrine";
         lion.age=3;
         lion.family="lion";
         Zoo myZoo = new Zoo();
