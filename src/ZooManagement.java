@@ -1,25 +1,25 @@
 public class ZooManagement {
     public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("entrer le nbr des cages");
-//        int nbCages = sc.nextInt();
-//        System.out.println("entrer le nom");
-//        String zooName = sc.next();
-//        System.out.println(zooName+" comporte "+nbCages+ "cages");
-        Animal lion = new Animal();
-        lion.isMammal=true;
-        lion.nom="syrine";
-        lion.age=3;
-        lion.family="lion";
-        Zoo myZoo = new Zoo();
-        myZoo.nbCages=30;
-        myZoo.city="ariana";
-        myZoo.name="myZoo";
+        Animal lion = new Animal("Félins", "Simba", 5, true);
+        lion.displayAnimal();
 
-        Animal dog = new Animal("chien","dog",3,true);
+        Zoo myZoo = new Zoo("Central Park Zoo", "Madagascar");
+        myZoo.displayZoo();
 
-        System.out.println(myZoo);
-        System.out.println(myZoo.toString());
+        myZoo.addAnimal(lion);
+        Animal lion2 = new Animal("Félins", "syrine", 5, true);
+        myZoo.addAnimal(lion2);
+
+        System.out.println("Is the zoo full? " + myZoo.isZooFull());
+
+        myZoo.ShowAnimals();
+
+        System.out.println("Index of lion: " + myZoo.searchAnimal(lion));
+        System.out.println("Index of lion2: " + myZoo.searchAnimal(lion2));
+
+        Zoo anotherZoo = new Zoo("Safari Park", "Africa");
+        anotherZoo.addAnimal(new Animal("Félins", "Leo", 4, true));
+        Zoo largerZoo = Zoo.comparerZoo(myZoo, anotherZoo);
+        System.out.println("The zoo with more animals is: " + largerZoo.name);
     }
 }
-    

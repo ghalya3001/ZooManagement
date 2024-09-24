@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="77365e29-e384-4519-bcca-bf654709943e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zoo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ZooManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ZooManagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +38,7 @@
   "keyToString": {
     "Application.ZooManagement.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "prosit-3",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,7 +70,7 @@
       <updated>1727103716799</updated>
       <workItem from="1727103717910" duration="1032000" />
       <workItem from="1727105969656" duration="56000" />
-      <workItem from="1727207741890" duration="2453000" />
+      <workItem from="1727207741890" duration="6509000" />
     </task>
     <servers />
   </component>
