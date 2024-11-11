@@ -67,6 +67,7 @@ public class employe {
                 ", dep='" + dep + '\'' +
                 ", grade=" + grade +
                 '}';
+
     }
 
     @Override
